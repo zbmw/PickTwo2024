@@ -8,13 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		D8261CAC2B7931CB00799017 /* PickTwo2024App.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8261CAB2B7931CB00799017 /* PickTwo2024App.swift */; };
-		D8261CAE2B7931CB00799017 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8261CAD2B7931CB00799017 /* ContentView.swift */; };
-		D8261CB02B7931CB00799017 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8261CAF2B7931CB00799017 /* Item.swift */; };
+		D8261CAE2B7931CB00799017 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8261CAD2B7931CB00799017 /* LoginView.swift */; };
 		D8261CB22B7931CC00799017 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8261CB12B7931CC00799017 /* Assets.xcassets */; };
 		D8261CB52B7931CC00799017 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8261CB42B7931CC00799017 /* Preview Assets.xcassets */; };
 		D8261CBF2B7931CC00799017 /* PickTwo2024Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8261CBE2B7931CC00799017 /* PickTwo2024Tests.swift */; };
 		D8261CC92B7931CC00799017 /* PickTwo2024UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8261CC82B7931CC00799017 /* PickTwo2024UITests.swift */; };
 		D8261CCB2B7931CC00799017 /* PickTwo2024UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8261CCA2B7931CC00799017 /* PickTwo2024UITestsLaunchTests.swift */; };
+		D8261CD82B7932A400799017 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8261CD72B7932A400799017 /* LoginViewModel.swift */; };
+		D8261CE02B9CF60600799017 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8261CDF2B9CF60600799017 /* ProfileView.swift */; };
+		D8261CE22B9CF9DE00799017 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8261CE12B9CF9DE00799017 /* ProfileViewModel.swift */; };
+		D8DDA7BC2B9E2FC9005DDBA0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8DDA7BB2B9E2FC9005DDBA0 /* GoogleService-Info.plist */; };
+		D8DDA7BF2B9E31BF005DDBA0 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = D8DDA7BE2B9E31BF005DDBA0 /* FirebaseAnalytics */; };
+		D8DDA7C12B9E31BF005DDBA0 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = D8DDA7C02B9E31BF005DDBA0 /* FirebaseAuth */; };
+		D8DDA7C32B9E31BF005DDBA0 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = D8DDA7C22B9E31BF005DDBA0 /* FirebaseFirestoreCombine-Community */; };
+		D8DDA7C52B9E31BF005DDBA0 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D8DDA7C42B9E31BF005DDBA0 /* FirebaseFirestoreSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +44,7 @@
 /* Begin PBXFileReference section */
 		D8261CA82B7931CB00799017 /* PickTwo2024.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PickTwo2024.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8261CAB2B7931CB00799017 /* PickTwo2024App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickTwo2024App.swift; sourceTree = "<group>"; };
-		D8261CAD2B7931CB00799017 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		D8261CAF2B7931CB00799017 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		D8261CAD2B7931CB00799017 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		D8261CB12B7931CC00799017 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8261CB42B7931CC00799017 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D8261CBA2B7931CC00799017 /* PickTwo2024Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickTwo2024Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +52,11 @@
 		D8261CC42B7931CC00799017 /* PickTwo2024UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickTwo2024UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8261CC82B7931CC00799017 /* PickTwo2024UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickTwo2024UITests.swift; sourceTree = "<group>"; };
 		D8261CCA2B7931CC00799017 /* PickTwo2024UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickTwo2024UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D8261CD72B7932A400799017 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		D8261CDE2B9CF1F300799017 /* PickTwo2024.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PickTwo2024.entitlements; sourceTree = "<group>"; };
+		D8261CDF2B9CF60600799017 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		D8261CE12B9CF9DE00799017 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		D8DDA7BB2B9E2FC9005DDBA0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +64,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8DDA7C32B9E31BF005DDBA0 /* FirebaseFirestoreCombine-Community in Frameworks */,
+				D8DDA7BF2B9E31BF005DDBA0 /* FirebaseAnalytics in Frameworks */,
+				D8DDA7C12B9E31BF005DDBA0 /* FirebaseAuth in Frameworks */,
+				D8DDA7C52B9E31BF005DDBA0 /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,9 +111,11 @@
 		D8261CAA2B7931CB00799017 /* PickTwo2024 */ = {
 			isa = PBXGroup;
 			children = (
+				D8DDA7BA2B9E2F99005DDBA0 /* Config */,
+				D8261CDE2B9CF1F300799017 /* PickTwo2024.entitlements */,
+				D8261CDB2B7932C100799017 /* ViewModels */,
+				D8261CD92B7932AE00799017 /* Views */,
 				D8261CAB2B7931CB00799017 /* PickTwo2024App.swift */,
-				D8261CAD2B7931CB00799017 /* ContentView.swift */,
-				D8261CAF2B7931CB00799017 /* Item.swift */,
 				D8261CB12B7931CC00799017 /* Assets.xcassets */,
 				D8261CB32B7931CC00799017 /* Preview Content */,
 			);
@@ -130,6 +147,32 @@
 			path = PickTwo2024UITests;
 			sourceTree = "<group>";
 		};
+		D8261CD92B7932AE00799017 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D8261CAD2B7931CB00799017 /* LoginView.swift */,
+				D8261CDF2B9CF60600799017 /* ProfileView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D8261CDB2B7932C100799017 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				D8261CD72B7932A400799017 /* LoginViewModel.swift */,
+				D8261CE12B9CF9DE00799017 /* ProfileViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D8DDA7BA2B9E2F99005DDBA0 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				D8DDA7BB2B9E2FC9005DDBA0 /* GoogleService-Info.plist */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +189,12 @@
 			dependencies = (
 			);
 			name = PickTwo2024;
+			packageProductDependencies = (
+				D8DDA7BE2B9E31BF005DDBA0 /* FirebaseAnalytics */,
+				D8DDA7C02B9E31BF005DDBA0 /* FirebaseAuth */,
+				D8DDA7C22B9E31BF005DDBA0 /* FirebaseFirestoreCombine-Community */,
+				D8DDA7C42B9E31BF005DDBA0 /* FirebaseFirestoreSwift */,
+			);
 			productName = PickTwo2024;
 			productReference = D8261CA82B7931CB00799017 /* PickTwo2024.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +267,9 @@
 				Base,
 			);
 			mainGroup = D8261C9F2B7931CB00799017;
+			packageReferences = (
+				D8DDA7BD2B9E31BF005DDBA0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = D8261CA92B7931CB00799017 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -234,6 +286,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8DDA7BC2B9E2FC9005DDBA0 /* GoogleService-Info.plist in Resources */,
 				D8261CB52B7931CC00799017 /* Preview Assets.xcassets in Resources */,
 				D8261CB22B7931CC00799017 /* Assets.xcassets in Resources */,
 			);
@@ -260,8 +313,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8261CAE2B7931CB00799017 /* ContentView.swift in Sources */,
-				D8261CB02B7931CB00799017 /* Item.swift in Sources */,
+				D8261CE22B9CF9DE00799017 /* ProfileViewModel.swift in Sources */,
+				D8261CD82B7932A400799017 /* LoginViewModel.swift in Sources */,
+				D8261CE02B9CF60600799017 /* ProfileView.swift in Sources */,
+				D8261CAE2B7931CB00799017 /* LoginView.swift in Sources */,
 				D8261CAC2B7931CB00799017 /* PickTwo2024App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -423,6 +478,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PickTwo2024/PickTwo2024.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PickTwo2024/Preview Content\"";
@@ -439,7 +495,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = zbmw.PickTwo2024;
+				PRODUCT_BUNDLE_IDENTIFIER = zbmw.PickTwo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -452,6 +508,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PickTwo2024/PickTwo2024.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PickTwo2024/Preview Content\"";
@@ -468,7 +525,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = zbmw.PickTwo2024;
+				PRODUCT_BUNDLE_IDENTIFIER = zbmw.PickTwo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -592,6 +649,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D8DDA7BD2B9E31BF005DDBA0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.22.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D8DDA7BE2B9E31BF005DDBA0 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D8DDA7BD2B9E31BF005DDBA0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		D8DDA7C02B9E31BF005DDBA0 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D8DDA7BD2B9E31BF005DDBA0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		D8DDA7C22B9E31BF005DDBA0 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D8DDA7BD2B9E31BF005DDBA0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		D8DDA7C42B9E31BF005DDBA0 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D8DDA7BD2B9E31BF005DDBA0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D8261CA02B7931CB00799017 /* Project object */;
 }
