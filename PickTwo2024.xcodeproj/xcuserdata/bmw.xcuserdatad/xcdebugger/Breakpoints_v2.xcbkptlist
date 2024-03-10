@@ -46,8 +46,8 @@
             filePath = "PickTwo2024/ViewModels/LoginViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "63"
-            endingLineNumber = "63"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
             landmarkName = "randomNonceString(length:)"
             landmarkType = "7">
          </BreakpointContent>

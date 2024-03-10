@@ -35,7 +35,6 @@ extension LoginView {
                     print(error?.localizedDescription as Any)
                     return
                 }
-                print("signed in")
                 self.isAuthenticated = true
                 Task {}
             }
